@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+       
+        <!--Bootstrap Link-->
+        <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous"/>
+        <!--Local Link-->
+        <link rel="stylesheet" href="Placeholder"/>
+        <title>Password Generator</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Random Password Generator</h1>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="card-body" col-lg-9>
+                    <div>
+                        <h3>Generate Your Password</h3>
+                        <h6>To generate a password, click the button below.</h6>
+                        <h6>Some questions will pop-up to clarify any specifications for your password</h6>
+                        <hr />
+                    </div>
+
+                    <div style="width:50%;margin:0 auto;text-align:center">
+                        <!-- Where the Password will generate  -->
+                        <textarea readonly="true" name="show password" id="password" cols="30" rows="5"></textarea>
+                        <hr />
+                        <!-- Submit/Generate Button  -->
+                        <button type="button" class="btn btn-danger" id="generate">Generate</button>
+                        <!-- Copying Button  -->
+                        <button type="button" class="btn btn-secondary" id="clipboard">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <!-- For styling  -->
+        </footer>
+
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">//jQuery Link</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">//Bootstrap Link</script>
+
+        <script src="Placeholder">//Local Script</script>
+    </body>
+</html>
